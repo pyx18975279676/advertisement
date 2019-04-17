@@ -1,0 +1,62 @@
+2019-04-08 14:13:38.153 22332-22332/? I/art: Late-enabling -Xcheck:jni
+2019-04-08 14:13:38.191 22332-22332/com.seetatech.ad W/System: ClassLoader referenced unknown path: /data/app/com.seetatech.ad-2/lib/arm64
+2019-04-08 14:13:38.237 22332-22332/com.seetatech.ad W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+2019-04-08 14:13:38.418 22332-22332/com.seetatech.ad W/System.err: java.io.FileNotFoundException: /storage/emulated/0/seetamedia_config (No such file or directory)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at java.io.FileInputStream.open(Native Method)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at java.io.FileInputStream.<init>(FileInputStream.java:146)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at com.seetatech.ad.util.FileUtil.read(FileUtil.java:345)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at com.seetatech.ad.data.MediaController.loadMediaConfig(MediaController.java:36)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at com.seetatech.ad.ui.main.MainActivity.init(MainActivity.java:247)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at com.seetatech.ad.ui.main.MainActivity.onCreate(MainActivity.java:149)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.Activity.performCreate(Activity.java:6709)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2619)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2727)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.ActivityThread.-wrap12(ActivityThread.java)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1478)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:102)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.os.Looper.loop(Looper.java:154)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:6121)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at java.lang.reflect.Method.invoke(Native Method)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:912)
+2019-04-08 14:13:38.419 22332-22332/com.seetatech.ad W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:802)
+2019-04-08 14:13:38.445 22332-22332/com.seetatech.ad D/GRALLOC-ROCKCHIP: enter, w : 576, h : 576, format : 0x1, usage : 0x100.
+2019-04-08 14:13:38.491 22332-22352/com.seetatech.ad I/mali_so: [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 976; [Func] : base_context_deal_with_version_affairs_rk_ext;
+    arm_release_ver of this mali_so is 'r14p0-01rel0', rk_so_ver is '6@0'.
+2019-04-08 14:13:38.491 22332-22352/com.seetatech.ad D/mali_so: [File] : hardware/arm/maliT760/driver/product/base/src/mali_base_kbase.c; [Line] : 981; [Func] : base_context_deal_with_version_affairs_rk_ext;
+    current process is NOT sf, to bail out.
+2019-04-08 14:13:38.493 22332-22352/com.seetatech.ad I/OpenGLRenderer: Initialized EGL, version 1.4
+2019-04-08 14:13:38.494 22332-22352/com.seetatech.ad D/OpenGLRenderer: Swap behavior 1
+2019-04-08 14:13:38.499 22332-22352/com.seetatech.ad D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+2019-04-08 14:13:38.550 22332-22352/com.seetatech.ad D/GRALLOC-ROCKCHIP: enter, w : 1920, h : 1080, format : 0x1, usage : 0xb00.
+2019-04-08 14:13:38.626 22332-22352/com.seetatech.ad D/GRALLOC-ROCKCHIP: enter, w : 1920, h : 1080, format : 0x1, usage : 0xb00.
+2019-04-08 14:13:38.645 22332-22352/com.seetatech.ad D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+2019-04-08 14:13:38.665 22332-22352/com.seetatech.ad D/GRALLOC-ROCKCHIP: enter, w : 1920, h : 1080, format : 0x1, usage : 0xb00.
+2019-04-08 14:13:38.674 22332-22352/com.seetatech.ad D/GRALLOC-ROCKCHIP: enter, w : 235, h : 59, format : 0x1, usage : 0xb00.
+2019-04-08 14:13:38.679 22332-22352/com.seetatech.ad D/GRALLOC-ROCKCHIP: enter, w : 235, h : 59, format : 0x1, usage : 0xb00.
+2019-04-08 14:13:39.444 22332-22332/com.seetatech.ad V/CameraThread: getHandler:
+2019-04-08 14:13:39.453 22332-22332/com.seetatech.ad V/CameraThread: getHandler:
+2019-04-08 14:13:39.518 22332-22351/com.seetatech.ad D/UsbDeviceConnectionJNI: close
+2019-04-08 14:13:39.519 22332-22351/com.seetatech.ad I/USBMonitor: name=/dev/bus/usb/001/003,desc=71,busnum=1,devnum=3,rawDesc=[B@ecf788
+2019-04-08 14:13:39.519 22332-22366/com.seetatech.ad V/CameraThread: handleOpen:
+2019-04-08 14:13:39.520 22332-22366/com.seetatech.ad V/CameraThread: handleClose:
+    
+    --------- beginning of crash
+2019-04-08 14:13:39.523 22332-22366/com.seetatech.ad E/AndroidRuntime: FATAL EXCEPTION: CameraThread
+    Process: com.seetatech.ad, PID: 22332
+    java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.seetatech.ad-2/base.apk"],nativeLibraryDirectories=[/data/app/com.seetatech.ad-2/lib/arm64, /system/lib64, /vendor/lib64]]] couldn't find "libjpeg-turbo1500.so"
+        at java.lang.Runtime.loadLibrary0(Runtime.java:984)
+        at java.lang.System.loadLibrary(System.java:1562)
+        at com.serenegiant.usb.UVCCamera.<clinit>(UVCCamera.java:119)
+        at com.serenegiant.usb.common.AbstractUVCCameraHandler$CameraThread.handleOpen(AbstractUVCCameraHandler.java:511)
+        at com.serenegiant.usb.common.AbstractUVCCameraHandler.handleMessage(AbstractUVCCameraHandler.java:348)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:154)
+        at com.serenegiant.usb.common.AbstractUVCCameraHandler$CameraThread.run(AbstractUVCCameraHandler.java:1043)
+2019-04-08 14:13:39.583 22332-22351/com.seetatech.ad D/UsbDeviceConnectionJNI: close
+2019-04-08 14:13:39.584 22332-22351/com.seetatech.ad I/USBMonitor: name=/dev/bus/usb/001/007,desc=72,busnum=1,devnum=7,rawDesc=[B@6056d46
+2019-04-08 14:13:39.584 22332-22367/com.seetatech.ad V/CameraThread: handleOpen:
+2019-04-08 14:13:39.584 22332-22367/com.seetatech.ad V/CameraThread: handleClose:
+2019-04-08 14:13:39.584 22332-22367/com.seetatech.ad I/art: Rejecting re-init on previously-failed class java.lang.Class<com.serenegiant.usb.UVCCamera>: java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.seetatech.ad-2/base.apk"],nativeLibraryDirectories=[/data/app/com.seetatech.ad-2/lib/arm64, /system/lib64, /vendor/lib64]]] couldn't find "libjpeg-turbo1500.so"
+2019-04-08 14:13:39.585 22332-22367/com.seetatech.ad I/art: (Throwable with no stack trace)
+2019-04-08 14:13:39.585 22332-22367/com.seetatech.ad I/Process: Sending signal. PID: 22332 SIG: 9

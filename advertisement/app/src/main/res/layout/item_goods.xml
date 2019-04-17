@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_goods"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/tv_goods_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_large"
+        android:textColor="@color/black"
+        android:text="康师傅红烧牛肉面"/>
+
+    <TextView
+        android:id="@+id/tv_goods_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_normal"
+        android:textColor="@color/black"
+        android:text="￥12.00"/>
+
+    <TextView
+        android:id="@+id/tv_goods_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_normal"
+        android:textColor="@color/black"
+        android:text="2"/>
+</LinearLayout>

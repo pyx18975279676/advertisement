@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>欢迎你使用后台管理系统</title>
+ <script type="text/javascript" src="lx.js"></script>
+ <link href="bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="lx.css">
+
+</head>
+<body>
+
+<div id="query_result"></div>
+
+<script type="text/javascript">
+	fnQuery();
+</script>
+
+<form action="add" method="post" enctype="multipart/form-data">
+商品ID<input type="text" name="key" /><br/><br/>
+广告名称<input type="text" name="name" /><br/><br/>
+时长<input type="number" name="time" /><br/><br/>
+文件<input type="file" name="file" /><br/><br/>
+<input type="submit" value="上传文件" />
+</form>
+
+
+</body>
+</html>
+

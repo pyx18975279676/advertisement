@@ -1,0 +1,92 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="服务器" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_scan_server_address"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_scan_server_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_scan_server_address" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_shop_server_address"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_shop_server_address"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_shop_server_address" />
+
+    <Preference android:title="@string/pref_title_init_scan">
+        <intent android:action="com.seetatech.ad.init" />
+    </Preference>
+
+    <PreferenceCategory android:title="软件" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_admin_password"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_admin_password"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_admin_password" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_shop_id"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_shop_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_shop_id" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_threshold"
+        android:inputType="numberDecimal"
+        android:key="@string/pref_key_threshold"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_threshold" />
+
+    <PreferenceCategory android:title="硬件(重启生效)" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_camera_fps"
+        android:inputType="numberDecimal"
+        android:key="@string/pref_key_camera_fps"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_camera_fps" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_default_camera_count"
+        android:entries="@array/pref_camera_count_titles"
+        android:entryValues="@array/pref_camera_count_values"
+        android:key="@string/pref_key_camera_count"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_camera_count" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_camera_band_width_factor"
+        android:inputType="numberDecimal"
+        android:key="@string/pref_key_camera_band_width_factor"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_camera_band_width_factor" />
+
+</PreferenceScreen>

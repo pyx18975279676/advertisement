@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">广告机
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">常规设置</string>
+
+    <string name="pref_title_scan_server_address">识别服务器地址</string>
+    <string name="pref_key_scan_server_address">key_scan_server_address</string>
+    <string name="pref_default_scan_server_address">http://192.168.3.32:16668</string>
+
+    <string name="pref_title_shop_server_address">业务服务器地址</string>
+    <string name="pref_key_shop_server_address">key_shop_server_address</string>
+    <string name="pref_default_shop_server_address">http://192.168.3.17:18080</string>
+
+    <string name="pref_title_init_scan">初始化识别引擎</string>
+
+    <string name="pref_title_threshold">识别阈值</string>
+    <string name="pref_key_threshold">key_threshold</string>
+    <string name="pref_default_threshold">0.9</string>
+
+    <string name="pref_title_admin_password">管理员密码</string>
+    <string name="pref_key_admin_password">key_admin_password</string>
+    <string name="pref_default_admin_password">admin</string>
+
+    <string name="pref_title_shop_id">店铺ID</string>
+    <string name="pref_key_shop_id">key_shop_id</string>
+    <string name="pref_default_shop_id">001</string>
+
+    <string name="pref_title_camera_fps">摄像头帧数</string>
+    <string name="pref_key_camera_fps">key_camera_fps</string>
+    <string name="pref_default_camera_fps">2</string>
+
+    <string name="pref_title_camera_count">摄像头个数</string>
+    <string name="pref_key_camera_count">key_camera_count</string>
+    <string name="pref_default_camera_count">2</string>
+
+    <string-array name="pref_camera_count_titles">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_camera_count_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_title_camera_band_width_factor">摄像头带宽</string>
+    <string name="pref_key_camera_band_width_factor">key_camera_band_width_factor</string>
+    <string name="pref_default_camera_band_width_factor">0.5</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_advanced">高级设置</string>
+    <string name="pref_key_reboot_device">key_reboot_device</string>
+    <string name="pref_title_reboot_device">重启设备</string>
+
+    <string name="pref_title_launcher">其他应用</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="camera_init_tip">注意：从左上角开始按照顺时针顺序在摄像头预览界面上点四个点,标识物体区域(实际上是以左上角和右下角的点为对角线,切割出一个矩形,只有这两个点有用，四个点是为了方便拓展).
+        \n在标识所有摄像头后,点击 \"确定\" 完成初始化.如果不标识,则认为是不切割.如果只想打开摄像头,点击预览打开摄像头后,点击返回即可.</string>
+</resources>

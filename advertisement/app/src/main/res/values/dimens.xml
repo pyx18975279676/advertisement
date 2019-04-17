@@ -1,0 +1,7 @@
+<resources>
+    <!-- 字体大小 -->
+    <dimen name="font_size_huge">30sp</dimen>
+    <dimen name="font_size_large">20sp</dimen>
+    <dimen name="font_size_normal">16sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+</resources>

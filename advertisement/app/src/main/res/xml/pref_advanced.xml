@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="@string/pref_title_launcher">
+        <intent android:action="com.seetatech.ad.launcher" />
+    </Preference>
+
+    <Preference android:title="@string/pref_title_reboot_device"
+        android:key="@string/pref_key_reboot_device">
+    </Preference>
+
+</PreferenceScreen>
